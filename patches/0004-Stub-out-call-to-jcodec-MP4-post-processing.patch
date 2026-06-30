@@ -12,7 +12,8 @@ diff --git a/smali_classes6/Fj/e.smali b/smali_classes6/Fj/e.smali
 index 068d694a..922aa20b 100644
 --- a/smali_classes6/Fj/e.smali
 +++ b/smali_classes6/Fj/e.smali
-@@ -5,275 +5,7 @@
+@@ -4,276 +4,8 @@
+ 
  
  # direct methods
  .method public static a(Ljava/io/File;LFj/b;)V
@@ -191,7 +192,7 @@ index 068d694a..922aa20b 100644
 -
 -    check-cast v2, Lorg/jcodec/containers/mp4/boxes/MovieBox;
 -
--    invoke-interface {p1, v2}, LFj/b;->b(Lorg/jcodec/containers/mp4/boxes/MovieBox;)V
+-    invoke-interface {p1, v2}, LFj/b;->i(Lorg/jcodec/containers/mp4/boxes/MovieBox;)V
 -
 -    iget-wide v3, v4, Lorg/jcodec/containers/mp4/boxes/b;->b:J
 -    :try_end_5
